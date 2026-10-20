@@ -1,0 +1,43 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.header{
+    background-color: rgb(23, 23, 64);
+    color: white;
+    padding: 20px;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: none;
+    gap: 8px;
+}
+
+
+
+
+
+
+.quote{
+    background-color: gray;
+
+}
+
+.plug{
+    background-color: rgb(38, 38, 243);
+}
+.footer{
+    background-color: rgb(18, 18, 40);
+}
