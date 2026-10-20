@@ -3,7 +3,7 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 0 0 auto;
     font-family: Roboto, sans-serif;
     font-style: normal;
 }
@@ -11,22 +11,27 @@ body{
 .header{
     background-color: #1F2937;
     color: white;
-    padding: 20px;
-    
+    display: flex;
+    flex-direction: column;
+
 
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 .nav{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    
 }
 .hero{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    display: flex;
 }
 
 ul{
@@ -34,12 +39,9 @@ ul{
     list-style: none;
     margin: none;
     gap: 8px;
+    margin-right:0 ;
+
 }
-
-
-
-
-
 
 .quote{
     background-color: gray;
@@ -47,8 +49,19 @@ ul{
 }
 
 .plug{
-    background-color: rgb(38, 38, 243);
+    background-color: #3882F6;
 }
-.footer{
+footer{
     background-color: #1F2937;
+    margin-bottom: 0;
+    color:white
+}
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+
+}
+.title{margin: 0;}
+.subtext{
+    font-size: 12px;
 }
