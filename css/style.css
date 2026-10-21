@@ -24,14 +24,13 @@ body{
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    flex:1 1 0px;
+    justify-content: space-around;    
 }
 .hero{
-    font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
     display: flex;
+    justify-content: space-around;    
 }
 
 ul{
@@ -59,9 +58,16 @@ footer{
 .sign-up{
     background-color: #3882F6;
     color: white;
+    border-radius: 5px;
+    border: none;
+    padding:8px 20px 8px 20px
+}
+.title{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
 
 }
-.title{margin: 0;}
 .subtext{
-    font-size: 12px;
+    font-size: 18px;
 }
