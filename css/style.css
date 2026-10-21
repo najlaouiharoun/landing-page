@@ -59,9 +59,9 @@ footer{
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
-    border: none;
     padding:8px 20px 8px 20px
 }
+
 .title{
     margin: 0;
     font-size: 48px;
@@ -70,4 +70,14 @@ footer{
 }
 .subtext{
     font-size: 18px;
+}
+.hero .sign-up{
+    border:none;
+}
+.plug .sign-up{
+    border-color: white;
+    border-width: 2px;
+}
+.info{
+    font-size: 36px;
 }
