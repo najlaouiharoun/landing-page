@@ -30,13 +30,21 @@ body{
 .hero{
     color: #F9FAF8;
     display: flex;
-    justify-content: center;    
-    align-items: center;
-    flex: 0 1 0px;
+    align-self: center;
+    flex: 1 1 0px;
+    padding: 80px;
+    
 
 }
+
 .side-text{
-        flex: 0 1 450px;
+        flex: 1 1 400px;
+
+}
+.hero_pic{
+        flex: 1 1 400px;
+        width: 250px;
+        height: 200px;
 
 }
 ul{
@@ -45,38 +53,61 @@ ul{
     margin: none;
     gap: 8px;
     margin-right:0 ;
+    filter: contrast(50%);
+
 
 }
 
 .quote{
-    background-color: gray;
+    background-color: #E5E7EB;
     font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
-    font-style: italic;
+   
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 
 
 }
+.qcontent{
+    text-align: center;
+    width: 650px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 
+}
+.quoted{
+    padding-left: 600px;
+    font-weight: 700;
+}
 .plug{
     background-color: #3882F6;
     display: flex;
-    justify-content: center;
-    justify-self: center;
+    padding: 50px;
+    margin: 50px 100px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    justify-content: space-around;
 }
 footer{
     background-color: #1F2937;
     margin-bottom: 0;
     color:white;
     text-align: center;
+    padding: 40px;
 }
 .sign-up{
     background-color: #3882F6;
     color: white;
+    font-weight: 300;
+    border: 10px solid ;
+    padding:8px 36px;
+    align-self: center;
+    box-shadow: none;
     border-radius: 5px;
-    padding:8px 20px 8px 20px
+
 }
 
 .title{
@@ -88,27 +119,51 @@ footer{
 }
 .subtext{
     font-size: 18px;
+    filter: contrast(50%);
 }
 .hero .sign-up{
     border:none;
 }
+figure{
+    flex-wrap: wrap;
+    flex:0 0 0px;
+    text-align: center;
+}
 .plug .sign-up{
     border-color: white;
     border-width: 2px;
+    font-size: 16px;
 }
 .info{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     align-self: center;
+    margin-bottom: 24px;
 }
 .images{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 80px;
+
 }
 .images img{
-    border: #3882F6;
+    border-style: solid;
+    border-color: #3882F6;
     border-radius: 8px;
     border-width: 3px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+}
+.plug_title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-size: 18px;
+    filter: contrast(50%);
 }
